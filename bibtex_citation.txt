@@ -1,0 +1,10 @@
+@inproceedings{progonov-22-behaviorauth,
+    author = {Progonov, Dmytro and Cherniakova, Valentyna and Kolesnichenko, Pavlo and Oliynyk, Andriy},
+    title = {{Behavior-based user authentication on mobile devices in various usage contexts}},
+    journal = {EURASIP Journal on Information Security},
+    year = {2022},
+    issue = {1},
+    url = {https://doi.org/10.1186/s13635-022-00132-x },
+    doi = {10.1186/s13635-022-00132-x},
+    month = sep,
+} % No publisher

@@ -1,0 +1,487 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+
+<!-- Proprietary CSS -->
+<!-- <link href="style.css" rel="stylesheet"> -->
+
+<!-- Google fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cantarell">
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+		integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+<!-- Care about mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Behavior-based user authentication on mobile devices in various usage contexts</title>
+
+</head>
+
+<body>
+
+<div class="container w-50">
+
+	<div class="row text-center">
+		<div class="col-12">
+		<h1 class="mt-5">Behavior-based user authentication on mobile devices in various usage contexts</h1>
+		<h5 class="text-muted my-4">EURASIP Journal on Information Security</h5>
+		<!-- <h5 class="my-4">DOI: 10.1186/s13635-022-00132-x</h5> -->
+		</div>
+	</div>
+
+	<div class="row text-center">
+		<div class="col-6">
+			<a type="button" class="btn btn-primary" href="mailto:d.progonov@samsung.com">
+				<img src="images/at.svg"/>
+				Progonov Dmytro</a>
+			<div class="col">
+			<a type="button" class="btn btn-link" href="https://research.samsung.com/srk">Samsung R&D Institute Ukraine</a>
+			</div>
+			<div class="col">
+			<a type="button" class="btn btn-link" href="https://kpi.ua/en/">Igor Sikorsky Kyiv Polytechnic Institute</a>
+			</div>
+		</div>
+		<div class="col-6">
+			<a type="button" class="btn btn-primary" href="mailto:v.cherniakov@samsung.com">
+				<img src="images/at.svg"/>
+				Valentyna Cherniakova</a>
+			<div class="col">
+			<a type="button" class="btn btn-link" href="https://research.samsung.com/srk">Samsung R&D Institute Ukraine</a>
+			</div>
+		</div>
+		<div class="col-6">
+			<a type="button" class="btn btn-primary" href="mailto:author2ATgmailDOTcom">
+				<img src="images/at.svg"/>
+				Pavlo Kolesnichenko</a>
+		</div>
+		<div class="col-6">
+			<a type="button" class="btn btn-primary" href="mailto:a.oliynyk@samsung.com">
+				<img src="images/at.svg"/>
+				Andriy Oliynyk</a>
+			<div class="col">
+			<a type="button" class="btn btn-link" href="https://research.samsung.com/srk">Samsung R&D Institute Ukraine</a>
+			</div>
+			<div class="col">
+			<a type="button" class="btn btn-link" href="http://www.univ.kiev.ua/en/departments/mm/">Taras Shevchenko National University of Kyiv</a>
+			</div>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="row text-center">
+		<div class="col-4">
+			<a type="button" class="btn btn-light" href="https://jis-eurasipjournals.springeropen.com/counter/pdf/10.1186/s13635-022-00132-x.pdf">
+				<img src="images/file-pdf.svg" class="img-fluid p-2" alt="file">
+				<h5>Paper</h5>
+				<p>Download pdf</p>
+			</a>
+		</div>
+		<div class="col-4">
+			<a type="button" class="btn btn-light" href="https://jis-eurasipjournals.springeropen.com/articles/10.1186/s13635-022-00132-x">
+				<img src="images/person-chalkboard.svg" class="img-fluid p-2" alt="file">
+				<h5>EURASIP Journal</h5>
+				<p>on Information Security</p>
+			</a>
+		</div>
+		<div class="col-4">
+			<a type="button" class="btn btn-light" href="./bibtex_citation.txt">
+				<img src="images/graduation-cap.svg" class="img-fluid p-2" alt="file">
+				<h5>BIBTEX</h5>
+				<p>Cite the paper</p>
+			</a>
+		</div>
+	</div>
+    
+	<div class="row">
+	<div class="col-12">
+		<h4 class="text-center mt-4">Abstract</h4>
+	</div>
+
+            <div class="offset-md-0 col-md-12 main_text">
+              <div class="lead mb-0">
+                Many solutions for knowledge- and biometric-based
+				authentication and liveness detection on mobile devices
+				are presented on the market today. The former ones provide 
+				strong authentication at the cost of usability, namely 
+				necessity of a password typing. The biometric-based
+				authentication solutions allows improving usability by
+				preserving low error rate. Despite the widespread
+				integration, they tend to be vulnerable to presentation
+				attack (spoofing of biometric data).
+				
+				<p>&nbsp;</p>
+				
+				The comparison of modern multifactor authentication and access control
+				solutions, for mobile devices are presented below.
+
+				<p>&nbsp;</p>
+
+				<table border="1" cellpadding="10" cellspacing="10" style="min-width:500px" class="mx-auto">
+					<tbody>
+						<tr>
+							<td style="text-align:center"><img width=1000hv height=500hv src="images/ACS-comparison.jpg" type="image/jpg" alt="ACS-comparison"></td>
+						</tr>
+					</tbody>
+				</table>
+				
+				
+				<p>&nbsp;</p>
+				
+				Promising approach is provided by modern behavior-based
+				authentication technologies. Typically, they are
+				based on biometric data capturing and extracting userspecific
+				behavioral patterns needed for the analysis of
+				several modalities during user interactions with mobile
+				devices. However, the performance of these systems
+				significantly depends on the context, namely user’s
+				activity (motionless, walking, running) and application
+				in use. Thus, spoofing-proof transparent user-friendly
+				methods for user authentication are needed.
+				
+				<p>&nbsp;</p>
+				
+				To provide on-device context-dependent behavior-based
+				authentication, we propose the BehaviorID solution. The comparison of scopes for
+				state-of-the-art and proposed methods is presented below.
+
+				<p>&nbsp;</p>
+
+				<table border="1" cellpadding="10" cellspacing="10" style="min-width:500px" class="mx-auto">
+					<tbody>
+						<tr>
+							<td style="text-align:center"><img width=1000hv height=500hv src="images/IAMLandscape.jpg" type="image/jpg" alt="IAMLandscape"></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p>&nbsp;</p>
+
+				The flowchart of the user’s features processing with proposed
+				method is presented below.
+
+				<p>&nbsp;</p>
+				
+				<table border="1" cellpadding="10" cellspacing="10" style="min-width:500px" class="mx-auto">
+					<tbody>
+						<tr>
+							<td style="text-align:center"><img width=1000hv height=500hv src="images/BehaviorIDMainRealizationR2.jpg" type="image/jpg" alt="BehaviorID-Realization"></td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<p>&nbsp;</p>
+				
+				The user authentication with the BehaviorID method
+				starts from a triggering event, such as launch a predefined
+				application. Then, signals from the device’s
+				embedded sensors are being gathered until finalization
+				trigger event, for instance, start typing in a launched
+				application.
+				At the second step, context recognition is performed
+				using preprocessed signals. The recognition model is
+				based on convolutional neural network (CNN) for feature
+				extraction from inputted signals. The prepared
+				signals are combined into modalities to be processed with
+				advanced A-RNN model. The feature of the network
+				is usage of mixture layer to improve performance in case
+				of processing sequences with multiple patterns, e.g., mixture
+				of output signals from embedded sensors. The output
+				of context recognition model is used as an external
+				parameter for mixture layers of A-RNN to compensate
+				possible alterations of of user behavioral profile.
+				Finally, the outputs of each A-RNN related to individual
+				modality are processed with decision-making module. 
+				In case of positive decision (user is authenticated),
+				the user is notified about the success authentication,
+				and the extracted features are used to update the
+				A-RNN parameters. Otherwise, negative decision is
+				reported (user is not recognized).
+				
+				<p>&nbsp;</p>
+				
+				Effective countermeasures against spoofing attack during
+				user authentication requires using additional factors.
+				BehaviorID allows “strengthening” of widespread authentication
+				methods by the usage of several modalities, for
+				example:
+				
+				 <ul>
+					<li>
+					<strong>Password-based authentication </strong> — user’s behavior
+					parameters are analyzed during typing, namely keystroke
+					dynamics, device small motion, and keyboard
+					hit map. If user behavior differs from saved profile,
+					the device will remain locked regardless of the correctness
+					of the entered password.
+					</li>
+					
+					<li>
+					<strong>Secure keyboard </strong> — the proposed method can be used
+					for touchscreen keyboard strengthening while working
+					in messengers, social networks, etc. In case of
+					failure of the BehaviorID authentication, a message
+					will not be sent and the system will ask for additional
+					authentication
+					</li>
+				  
+					<li>
+					<strong>Strengthening of biometric-based authentication </strong> —
+					BehaviorID can be used for increasing the robustness
+					of biometric-based authentication to spoofing. This
+					is achieved by analyzing the device’s small motions
+					during authentication. Thus, a device remains locked
+					even for spoofed biometric authentication, for example,
+					facial recognition, if motion patterns differ from
+					a known one or even absent
+					</li>
+					
+					<li>
+					<strong>Users transparent authentication </strong> — the method
+					checks of user authenticity at the background (without
+					making of authentication request) after launching
+					of predefined applications, for example, banking
+					app. If the difference between gathered behavioral
+					data, such as swipe patterns, touchscreen hit map,
+					user’s sight tracking, and a reference profile, is above
+					a threshold, the device is locked in short time.
+					</li>
+				</ul> 
+				
+				<p>&nbsp;</p>
+				
+				Rich functionality of the proposed BehaviorID method
+				makes it an attractive solution for transparent multifactor
+				on-device user authentication. Performance evaluation of the state-of-the-art and proposed
+				BehaviorID solutions was performed for both single modal and multimodal user authentication.
+				The following use cases were considered:
+				
+				<p>&nbsp;</p>
+				
+				<ul>
+					<li>
+					Estimation of Spoofing Acceptance Rate (SAR) is performed to check the conformity
+					of BehaviorID performance with requirements of Android Tiered Authentication Model (ATAM) for processing sensitive data on
+					mobile and wearable devices.
+					</li>
+					
+					<li>
+					Keystroke dynamics-based authentication in various
+					context corresponds to the case of “strengthening”
+					of user authentication by single modality (e.g.,
+					password-based authentication) in several usage contexts.
+					</li>
+				  
+					<li>
+					Multimodal authentication by changing usage context
+					allows evaluating the solution robustness to
+					changes of person’s behavioral templates, for example,
+					start walking after still standing.
+					</li>
+					
+					<li>
+					Long-term tracking of behavioral pattern alterations
+					corresponds to the case of changing of user’s behavior
+					over long-term usage of ACS system.
+					</li>
+				</ul> 
+
+				<p>&nbsp;</p>
+				
+				BehaviorID performance evaluation was done using a
+				set of public and in-house datasets of behavioral patterns
+				for considered modalities in various usage contexts, such as The ExtraSensory dataset, 
+				MotionSense dataset, SherLock dataset, H-MOG dataset, UMDAA-02 dataset, BB-MAS dataset,
+				in-house fixed-context dataset to name a few.
+				
+				<p>&nbsp;</p>
+				
+				For comparison, we considered the following state-of-the-art 
+				solutions for behavior-based user authentication
+				on smartphones:
+				
+				<p>&nbsp;</p>
+				
+				<ul>
+					<li>
+					<strong>Abuhamad et al. method </strong> — based on the utilization
+					of deep RNN, namely LSTM, for modeling temporary
+					dependencies between samples of behavioral
+					templates
+					</li>
+					
+					<li>
+					<strong>Reichinger et al. method </strong> — based on unsupervised learning
+					approach for gathered behavioral features with
+					usage of hidden Markov model
+					</li>
+				  
+					<li>
+					<strong>MMAuth method</strong> — integrates the heterogeneous
+					information of user identity from multiple
+					modalities with usage of developed time-extended
+					behavioral feature set and a deep learning based oneclass
+					classifier
+					</li>
+				</ul> 
+				
+				<p>&nbsp;</p>
+				
+				Estimated FAR, FRR, and SAR for single and multifactor authentication cases for fixed usage context (users are still sitting)
+				using state-of-the-art and proposed methods are presented below. The “Acc” and “Gyr” stand for accelerometer and gyroscope.
+				
+				<p>&nbsp;</p>
+				
+				<table border="1" cellpadding="10" cellspacing="10" style="min-width:500px" class="mx-auto">
+					<tbody>
+						<tr>
+							<td style="text-align:center"><img width=1000hv height=500hv src="images/Tab2.png" type="image/png" alt="Single and multifactor authenticaiton"></td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<p>&nbsp;</p>
+				
+				Moving from single factor to multifactor authentication
+				allows for decreasing SAR values from 37.2 to 2.9%
+				by preserving low FAR (about 2.5%) and FRR (near 8% )
+				values for the proposed method (Table 2). The obtained
+				results are close to state of the art in the domain of
+				behavior-based authentication. Note that
+				the obtained SAR values for multifactor authentication
+				(SAR<7%) corresponds to class 3 (strong) tier of <a href="https://android-developers.googleblog.com/2020/09/lockscreen-and-authentication.html">ATAM</a>. This makes the proposed
+				solution an attractive candidate
+				for use in security-sensitive scenarios.
+				
+				<p>&nbsp;</p>
+				
+				The next stage of performance analysis is aimed at the
+				evaluation of considered solutions for the case of multimodal
+				authentication in several usage contexts. The
+				H-MOG and UMDAA-02 datasets were used for the
+				estimation of FAR and FRR in this case. The keystroke
+				dynamics, device fine motions, swipe patterns, applications
+				profiling, and gaze tracking were used as authentication
+				factors. Also, the most difficult case of long-term
+				tracking of behavioral template was considered. The performance
+				analysis was done on SherLock dataset using three modalities, namely keystroke dynamics, application
+				usage logs, and device’s fine motions.
+				
+				<p>&nbsp;</p>
+				
+				The estimated values of FAR and FRR
+				metrics for the state-of-the-art and proposed solutions
+				for case of changing usage context (from still sitting to
+				walking) are presented below.
+				
+				<p>&nbsp;</p>
+				
+				<table class="table-bordered" cellpadding="1" cellspacing="1" width="100%">
+					<tbody>
+						<tr>
+							<td style="border-color:#000000; text-align:center">Dataset</td>
+							<td style="border-color:#000000; text-align:center">Metric</td>
+							<td style="border-color:#000000; text-align:center">Abuhamad et al. method</td>
+							<td style="border-color:#000000; text-align:center">Reichinger. method</td>
+							<td style="border-color:#000000; text-align:center">MMAuth method</td>
+							<td style="border-color:#000000; text-align:center">BehaviorID method</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="2" style="border-color:#000000">
+							<p style="text-align:center">H-MOG dataset</p>
+							</td>
+							<td style="border-color:#000000; text-align:center">FAR, %</td>
+							<td style="border-color:#000000; text-align:center">1.8%</td>
+							<td style="border-color:#000000; text-align:center">0.9%</td>
+							<td style="border-color:#000000; text-align:center">1.3%</td>
+							<td style="border-color:#000000; text-align:center">0.3%</td>
+						</tr>
+						<tr>
+							<td style="border-color:#000000; text-align:center">FRR, %</td>
+							<td style="border-color:#000000; text-align:center">3.0%</td>
+							<td style="border-color:#000000; text-align:center">1.5%</td>
+							<td style="border-color:#000000; text-align:center">1.9%</td>
+							<td style="border-color:#000000; text-align:center">1.3%</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="2" style="border-color:#000000">
+							<p style="text-align:center">UMDAA-02 dataset</p>
+							</td>
+							<td style="border-color:#000000; text-align:center">FAR, %</td>
+							<td style="border-color:#000000; text-align:center">7.4%</td>
+							<td style="border-color:#000000; text-align:center">6.8%</td>
+							<td style="border-color:#000000; text-align:center">7.9%</td>
+							<td style="border-color:#000000; text-align:center">7.0%</td>
+						</tr>
+						<tr>
+							<td style="border-color:#000000; text-align:center">FRR, %</td>
+							<td style="border-color:#000000; text-align:center">5.4%</td>
+							<td style="border-color:#000000; text-align:center">4.1%</td>
+							<td style="border-color:#000000; text-align:center">5.0%</td>
+							<td style="border-color:#000000; text-align:center">3.5%</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p>&nbsp;</p>
+				
+				For comparison, the estimated values
+				of FAR and FRR metrics for modern and proposed solutions
+				for the 3-week usage period (SherLock dataset) are presented below.
+				
+				<p>&nbsp;</p>
+				
+				<table class="table-bordered" cellpadding="1" cellspacing="1" width="100%">
+					<tbody>
+						<tr>
+							<td style="border-color:#000000; text-align:center">Metric</td>
+							<td style="border-color:#000000; text-align:center">Abuhamad et al. method</td>
+							<td style="border-color:#000000; text-align:center">Reichinger. method</td>
+							<td style="border-color:#000000; text-align:center">MMAuth method</td>
+							<td style="border-color:#000000; text-align:center">BehaviorID method</td>
+						</tr>
+						<tr>
+							<td style="border-color:#000000; text-align:center">FAR, %</td>
+							<td style="border-color:#000000; text-align:center">9.4%</td>
+							<td style="border-color:#000000; text-align:center">2.8%</td>
+							<td style="border-color:#000000; text-align:center">6.6%</td>
+							<td style="border-color:#000000; text-align:center">2.1%</td>
+						</tr>
+						<tr>
+							<td style="border-color:#000000; text-align:center">FRR, %</td>
+							<td style="border-color:#000000; text-align:center">12.7%</td>
+							<td style="border-color:#000000; text-align:center">4.2%</td>
+							<td style="border-color:#000000; text-align:center">11.9%</td>
+							<td style="border-color:#000000; text-align:center">3.9%</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p>&nbsp;</p>
+				
+				Performance analysis of the proposed methods showed
+				that BehaviorID allows outperforming the state-of-theart
+				multifactor behavior-based authentication methods
+				even in the most difficult case of long-term tracking of
+				behavioral patterns (about 2.1% FAR and 3.9% FRR). Also,
+				the proposed method provides low error rate in various
+				usage context (about 0.5% FAR and 1.3% FRR) by preserving
+				fast detection of non-owner user (within 0.5 − 1.0 s
+				for Samsung Galaxy S21 smartphone). This makes the
+				proposed BehaviorID method a promising candidate
+				for the next-generation user authentication systems on
+				mobile and wearable devices.
+				
+            </div>
+            <p></p>
+          </div>
+    </div>
+
+	<hr />
+	<p style="text-align:center">Some company, Copyright&nbsp;&copy; 2022</p>
+  </body>
+</html>
